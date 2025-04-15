@@ -1,0 +1,124 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #00000053;
+
+    background-image: url("/images/backgroundDark.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* border: solid green 2px; */
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+    width: 85%;
+
+    /* border: solid blue 2px; */
+}
+
+.item {
+    margin: 20px;
+    color: var(--white);
+    align-content: center;
+    border-radius: 30px;
+    padding-left: 8%;
+    background-color: var(--gray-trans);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 150ms;
+    height: 130px;
+    width: 195px;
+}
+
+.item:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 150ms;
+}
+
+
+.item1:hover {
+    background-image: url(/images/flags/australiadark.jpg);
+    transition: 150ms;
+}
+.item2:hover {
+    background-image: url(/images/flags/chinadark.png);
+    transition: 150ms;
+}
+.item3:hover {
+    background-image: url(/images/flags/japandark.jpg);
+    transition: 150ms;
+}
+.item4:hover {
+    background-image: url(/images/flags/bahraindark.png);
+    transition: 150ms;
+}
+.item5:hover {
+    background-color: url(/images/flags/saudiarabiadark.png);
+    transition: 150ms;
+}
+.item6:hover {
+    background-color: url(/images/flags/);
+    transition: 150ms;
+}
+.item7:hover {
+    background-color: url(/image/flags/);
+    transition: 150ms;
+}
+.item8:hover {
+    background-color: url(/image/flags/);
+    transition: 150ms;
+}
+.item9:hover {
+    background-color: url(/image/flags/);
+    transition: 150ms;
+}
+.item10:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}
+.item:hover {
+    background-color: url(/image/flags/);
+}

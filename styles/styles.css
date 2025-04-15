@@ -7,12 +7,13 @@
 :root {
     --blackblack: #161a20;
     --black: #222831;
-    --gray: #393E46;
+    --gray: #393E46; 
     --gray-trans: #393e46e5;
-    --darkred: #6A3539;
-    --red: #9B2C2C;
-    --brightred: #b81a1a;
-    --white: #EEEEEE;
+    --white: #EEE;
+}
+
+::selection {
+    background-color: var(--gray-trans);
 }
 
 body {
@@ -27,6 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 200px;
+    height: 10vh;
 
     background-color: var(--blackblack);
 }
@@ -56,45 +58,11 @@ body {
 
 header {
     height: 90vh;
-}
-
-
-.main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    background-color: #00000053;
-
-    background-image: url("/images/background.webp");
-    background-position: 0 -250px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* border: solid green 2px; */
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: repeat(5, 150px);
-    width: 80%;
-
-    /* border: solid blue 2px; */
 }
 
-.item {
-    margin: 20px;
-    color: #EEEEEE;
-    align-content: center;
-    border-radius: 30px;
-    padding-left: 10%;
-    background-color: var(--gray-trans);
-
-    box-shadow: ;
-    
-    /* border: solid var(--brightred) 2px; */
-}
 
 footer {
-    height: 30vh;
+    height: 10vh;
+    color: var(--white);
 }
