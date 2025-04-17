@@ -65,4 +65,23 @@ header {
 footer {
     height: 10vh;
     color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.footerflex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    a {
+        color: var(--white);
+        text-decoration: none;
+        border-bottom: 2px var(--white) solid;
+    }
+    a:hover {
+        font-weight: bold;
+    }
 }
